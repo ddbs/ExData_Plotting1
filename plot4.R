@@ -1,12 +1,12 @@
 # Plots 2x2
 
-#load data
+# load data
 source('loader.R')
 
 # open png device
 png(filename='plot4.png', width = 480, height = 480,  bg = NA)
 
-#set frame
+# set frame
 par(mfcol=c(2,2))
 
 # plot chart 1
